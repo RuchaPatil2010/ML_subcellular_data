@@ -1,8 +1,8 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, matthews_corrcoef
 from sklearn.model_selection import StratifiedKFold, train_test_split
-from data_retreival import get_occur_data
-from utils import multi_class_performance
+from utils.data_retreival import get_occur_data
+from utils.utils import multi_class_performance
 import pandas as pd
 
 

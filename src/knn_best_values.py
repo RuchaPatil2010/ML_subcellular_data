@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split, StratifiedKFold, GridSearc
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, matthews_corrcoef, f1_score
 from sklearn.preprocessing import LabelEncoder
-from data_retreival import get_occur_data
+from utils.data_retreival import get_occur_data
 import numpy as np
 import pandas as pd
 

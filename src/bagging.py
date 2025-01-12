@@ -1,4 +1,4 @@
-from data_retreival import get_occur_data
+from utils.data_retreival import get_occur_data
 from sklearn.svm import SVC
 from sklearn.ensemble import BaggingClassifier
 from sklearn.metrics import accuracy_score, matthews_corrcoef, f1_score

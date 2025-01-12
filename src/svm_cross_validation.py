@@ -1,7 +1,7 @@
 from sklearn.svm import SVC
 from sklearn.model_selection import StratifiedKFold, train_test_split
 from sklearn.metrics import matthews_corrcoef, f1_score
-from data_retreival import get_occur_data
+from utils.data_retreival import get_occur_data
 import numpy as np
 import pandas as pd
 

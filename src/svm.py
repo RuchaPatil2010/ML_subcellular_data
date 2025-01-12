@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import matthews_corrcoef, confusion_matrix, classification_report, accuracy_score
 from sklearn.model_selection import train_test_split
-from utils import multi_class_performance
-from data_retreival import get_occur_data
+from utils.utils import multi_class_performance
+from utils.data_retreival import get_occur_data
 
 def get_test_train_split():
     """

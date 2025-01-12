@@ -1,8 +1,8 @@
-from data_retreival import get_occur_data
+from utils.data_retreival import get_occur_data
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, matthews_corrcoef, confusion_matrix
-from utils import multi_class_performance
+from utils.utils import multi_class_performance
 import numpy as np
 import pandas as pd
 
